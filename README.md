@@ -63,6 +63,9 @@ Some very minor boundary edits were necessary to validate the geometry. Demograp
 * `NHPIVAP`: Native Hawaiian and Pacific Islander, non-hispanic, voting age population from 2010 Decennial Census
 * `OTHERVAP`: Other race, non-hispanic, voting age population from 2010 Decennial Census
 * `2MOREVAP`: Two or more races, non-hispanic, voting age population from 2010 Decennial Census
+* `CD`: Congressional district (Pierce County only)
+* `HDIST`: State House district (Pierce County only)
+* `SEND`: State Senate district (Pierce County only)
 
 ## Projection
 These shapefiles use a NAD83/UTM Zone 10N projection (ESPG:6339).
