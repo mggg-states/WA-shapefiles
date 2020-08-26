@@ -1,12 +1,12 @@
-# Benton County, Washington Election Shapefiles
+# Washington Election Shapefiles (Benton County, Pierce County)
 This shapefile was obtained from the State of Washington and processed by members of the Metric Geometry and Gerrymandering Group (MGGG) and Geodata Bootcamp (GDBC) alum Camryn Hollarsmith.
 
 ## Sources
-The Benton county precinct shapefile was obtained from the [Washington Secretary of State](https://www.sos.wa.gov/elections/research/precinct-shapefiles.aspx). Election data come from the [Washington Secretary of State Elections Division](https://results.vote.wa.gov/results/20161108/benton/). 2010 Decennial Census demographic data were downloaded from the [Census API](https://api.census.gov/data/2010/dec/sf1). The 2010 census block shapefile for all of Washington state was downloaded from the US Census Bureau’s [TIGER/Line Shapefiles](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html).
+The county precinct shapefiles were obtained from the [Washington Secretary of State](https://www.sos.wa.gov/elections/research/precinct-shapefiles.aspx). Election data come from the [Washington Secretary of State Elections Division](https://results.vote.wa.gov/results/20161108/). 2010 Decennial Census demographic data were downloaded from the [Census API](https://api.census.gov/data/2010/dec/sf1). The 2010 census block shapefile for all of Washington state was downloaded from the US Census Bureau’s [TIGER/Line Shapefiles](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html).
 
 
 ## Processing
-Some very minor boundary edits were necessary to validate the geometry. Demographic data was aggregated from the block level using MGGG’s proration software. 
+Some very minor boundary edits were necessary to validate the geometry. Demographic data were aggregated from the block level using MGGG’s proration software. 
 
 ## Metadata
 * `STATE`: State
@@ -17,8 +17,9 @@ Some very minor boundary edits were necessary to validate the geometry. Demograp
 * `CODE`: Precinct code
 *	`PRES16D`: Number of votes for 2016 Democratic presidential candidate
 *	`PRES16R`: Number of votes for 2016 Republican presidential candidate
-*	`SEN18D`: Number of votes for 2018 Democratic senate candidate
-*	`SEN18R`: Number of votes for 2018 Republican senate candidate
+* `PRES16L`: Number of votes for 2016 Republican presidential candidate (Pierce County only)
+*	`SEN16D`: Number of votes for 2016 Democratic senate candidate
+*	`SEN16R`: Number of votes for 2016 Republican senate candidate
 *	`GOV16D`: Number of votes for 2016 Democratic gubernatorial candidate
 *	`GOV16R`: Number of votes for 2016 Republican gubernatorial candidate
 *	`AUD16D`: Number of votes for 2016 Democratic auditor candidate
@@ -28,9 +29,15 @@ Some very minor boundary edits were necessary to validate the geometry. Demograp
 *	`TRE16D`: Number of votes for 2016 Democratic treasurer candidate
 *	`TRE16R`: Number of votes for 2016 Republican treasurer candidate
 *	`AG16D`: Number of votes for 2016 Democratic attorney general candidate
-*	`AG16R`: Number of votes for 2016 Republican attorney general candidate
+*	`AG16R`: Number of votes for 2016 Republican attorney general candidate (Benton County only)
+* `AG16L`: Number of votes for 2016 Republican attorney general candidate (Pierce County only)
 *	`SOS16D`: Number of votes for 2016 Democratic secretary of state candidate
 *	`SOS16R`: Number of votes for 2016 Republican secretary of state candidate
+* `USH16D`: Number of votes for 2016 Democratic house of representatives candidate (Pierce County only)
+* `USH16R`: Number of votes for 2016 Republican house of representatives candidate (Pierce County only)
+* `SH16D`: Number of votes for 2016 Democratic state house candidate (Pierce County only)
+* `SH16R`: Number of votes for 2016 Republican state house candidate (Pierce County only)
+* `SH16L`: Number of votes for 2016 Libertarian state house candidate (Pierce County only)
 * `TOTPOP`: Total population from 2010 Decennial Census
 * `NH_WHITE`: White, non-hispanic, population from 2010 Decennial Census
 * `NH_BLACK`: Black, non-hispanic, population from 2010 Decennial Census
@@ -40,6 +47,13 @@ Some very minor boundary edits were necessary to validate the geometry. Demograp
 * `NH_OTHER`: Other race, non-hispanic, population from 2010 Decennial Census
 * `NH_2MORE`: Two or more races, non-hispanic, population from 2010 Decennial Census
 * `HISP`: Hispanic population from 2010 Decennial Census
+* `H_WHITE`: White, hispanic, population from 2010 Decennial Census (Pierce County only)
+* `H_BLACK`: Black, hispanic, population from 2010 Decennial Census (Pierce County only) 
+* `H_AMIN`: American Indian and Alaska Native, hispanic, population from 2010 Decennial Census (Pierce County only) 
+* `H_ASIAN`: Asian, hispanic, population from 2010 Decennial Census (Pierce County only) 
+* `H_NHPI`: Native Hawaiian and Pacific Islander, hispanic, population from 2010 Decennial Census (Pierce County only) 
+* `H_OTHER`: Other race, hispanic, population from 2010 Decennial Census (Pierce County only) 
+* `H_2MORE`: Two or more races, hispanic, population from 2010 Decennial Census (Pierce County only) 
 * `VAP`: Total voting age population from 2010 Decennial Census
 * `HVAP`: Hispanic voting age population from 2010 Decennial Census
 * `WVAP`: White, non-hispanic, voting age population from 2010 Decennial Census
@@ -51,7 +65,7 @@ Some very minor boundary edits were necessary to validate the geometry. Demograp
 * `2MOREVAP`: Two or more races, non-hispanic, voting age population from 2010 Decennial Census
 
 ## Projection
-This shapefile uses a NAD83/UTM Zone 10N projection (ESPG:6339).
+These shapefiles use a NAD83/UTM Zone 10N projection (ESPG:6339).
 
 ## Rating
-We give this shapefiles an A rating. All data were obtained from the state government and were processed under MGGG supervision.
+We give these shapefiles an A rating. All data were obtained from the state government and were processed under MGGG supervision.
