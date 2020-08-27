@@ -17,7 +17,7 @@ Some very minor boundary edits were necessary to validate the geometry. Demograp
 * `CODE`: Precinct code
 *	`PRES16D`: Number of votes for 2016 Democratic presidential candidate
 *	`PRES16R`: Number of votes for 2016 Republican presidential candidate
-* `PRES16L`: Number of votes for 2016 Republican presidential candidate (Pierce County only)
+* `PRES16L`: Number of votes for 2016 Republican presidential candidate
 *	`SEN16D`: Number of votes for 2016 Democratic senate candidate
 *	`SEN16R`: Number of votes for 2016 Republican senate candidate
 *	`GOV16D`: Number of votes for 2016 Democratic gubernatorial candidate
@@ -29,15 +29,14 @@ Some very minor boundary edits were necessary to validate the geometry. Demograp
 *	`TRE16D`: Number of votes for 2016 Democratic treasurer candidate
 *	`TRE16R`: Number of votes for 2016 Republican treasurer candidate
 *	`AG16D`: Number of votes for 2016 Democratic attorney general candidate
-*	`AG16R`: Number of votes for 2016 Republican attorney general candidate (Benton County only)
-* `AG16L`: Number of votes for 2016 Libertarian attorney general candidate (Pierce County only)
+* `AG16L`: Number of votes for 2016 Libertarian attorney general candidate 
 *	`SOS16D`: Number of votes for 2016 Democratic secretary of state candidate
 *	`SOS16R`: Number of votes for 2016 Republican secretary of state candidate
-* `USH16D`: Number of votes for 2016 Democratic house of representatives candidate (Pierce County only)
-* `USH16R`: Number of votes for 2016 Republican house of representatives candidate (Pierce County only)
-* `SH16D`: Number of votes for 2016 Democratic state house candidate (Pierce County only)
-* `SH16R`: Number of votes for 2016 Republican state house candidate (Pierce County only)
-* `SH16L`: Number of votes for 2016 Libertarian state house candidate (Pierce County only)
+* `USH16D`: Number of votes for 2016 Democratic house of representatives candidate 
+* `USH16R`: Number of votes for 2016 Republican house of representatives candidate
+* `SH16D`: Number of votes for 2016 Democratic state house candidate 
+* `SH16R`: Number of votes for 2016 Republican state house candidate
+* `SH16L`: Number of votes for 2016 Libertarian state house candidate
 * `TOTPOP`: Total population from 2010 Decennial Census
 * `NH_WHITE`: White, non-hispanic, population from 2010 Decennial Census
 * `NH_BLACK`: Black, non-hispanic, population from 2010 Decennial Census
@@ -47,13 +46,13 @@ Some very minor boundary edits were necessary to validate the geometry. Demograp
 * `NH_OTHER`: Other race, non-hispanic, population from 2010 Decennial Census
 * `NH_2MORE`: Two or more races, non-hispanic, population from 2010 Decennial Census
 * `HISP`: Hispanic population from 2010 Decennial Census
-* `H_WHITE`: White, hispanic, population from 2010 Decennial Census (Pierce County only)
-* `H_BLACK`: Black, hispanic, population from 2010 Decennial Census (Pierce County only) 
-* `H_AMIN`: American Indian and Alaska Native, hispanic, population from 2010 Decennial Census (Pierce County only) 
-* `H_ASIAN`: Asian, hispanic, population from 2010 Decennial Census (Pierce County only) 
-* `H_NHPI`: Native Hawaiian and Pacific Islander, hispanic, population from 2010 Decennial Census (Pierce County only) 
-* `H_OTHER`: Other race, hispanic, population from 2010 Decennial Census (Pierce County only) 
-* `H_2MORE`: Two or more races, hispanic, population from 2010 Decennial Census (Pierce County only) 
+* `H_WHITE`: White, hispanic, population from 2010 Decennial Census
+* `H_BLACK`: Black, hispanic, population from 2010 Decennial Census
+* `H_AMIN`: American Indian and Alaska Native, hispanic, population from 2010 Decennial Census 
+* `H_ASIAN`: Asian, hispanic, population from 2010 Decennial Census
+* `H_NHPI`: Native Hawaiian and Pacific Islander, hispanic, population from 2010 Decennial Census 
+* `H_OTHER`: Other race, hispanic, population from 2010 Decennial Census 
+* `H_2MORE`: Two or more races, hispanic, population from 2010 Decennial Census
 * `VAP`: Total voting age population from 2010 Decennial Census
 * `HVAP`: Hispanic voting age population from 2010 Decennial Census
 * `WVAP`: White, non-hispanic, voting age population from 2010 Decennial Census
