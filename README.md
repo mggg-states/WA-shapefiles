@@ -30,7 +30,7 @@ Some very minor boundary edits were necessary to validate the geometry. Demograp
 *	`TRE16R`: Number of votes for 2016 Republican treasurer candidate
 *	`AG16D`: Number of votes for 2016 Democratic attorney general candidate
 *	`AG16R`: Number of votes for 2016 Republican attorney general candidate (Benton County only)
-* `AG16L`: Number of votes for 2016 Republican attorney general candidate (Pierce County only)
+* `AG16L`: Number of votes for 2016 Libertarian attorney general candidate (Pierce County only)
 *	`SOS16D`: Number of votes for 2016 Democratic secretary of state candidate
 *	`SOS16R`: Number of votes for 2016 Republican secretary of state candidate
 * `USH16D`: Number of votes for 2016 Democratic house of representatives candidate (Pierce County only)
