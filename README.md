@@ -1,4 +1,4 @@
-# Washington Election Shapefiles (Benton County, Pierce County)
+# Washington Election Shapefiles (Benton County, Chelan County, Pierce County)
 This shapefile was obtained from the State of Washington and processed by members of the Metric Geometry and Gerrymandering Group (MGGG) and Geodata Bootcamp (GDBC) alum Camryn Hollarsmith.
 
 ## Sources
@@ -34,9 +34,9 @@ Some very minor boundary edits were necessary to validate the geometry. Demograp
 *	`SOS16R`: Number of votes for 2016 Republican secretary of state candidate
 * `USH16D`: Number of votes for 2016 Democratic house of representatives candidate 
 * `USH16R`: Number of votes for 2016 Republican house of representatives candidate
-* `SH16D`: Number of votes for 2016 Democratic state house candidate 
-* `SH16R`: Number of votes for 2016 Republican state house candidate
-* `SH16L`: Number of votes for 2016 Libertarian state house candidate
+* `SH16D`: Number of votes for 2016 Democratic state house candidate (only for some counties)
+* `SH16R`: Number of votes for 2016 Republican state house candidate (only for some counties)
+* `SH16L`: Number of votes for 2016 Libertarian state house candidate (only for some counties)
 * `TOTPOP`: Total population from 2010 Decennial Census
 * `NH_WHITE`: White, non-hispanic, population from 2010 Decennial Census
 * `NH_BLACK`: Black, non-hispanic, population from 2010 Decennial Census
@@ -70,4 +70,4 @@ Some very minor boundary edits were necessary to validate the geometry. Demograp
 These shapefiles use a NAD83/UTM Zone 10N projection (ESPG:6339).
 
 ## Rating
-We give these shapefiles an A rating. All data were obtained from the state government and were processed under MGGG supervision.
+We give these shapefiles an A rating. All data were obtained from the state government and were processed under MGGG supervision. Some county-level vote totals for elections differ from reported totals by up to 3.02%, especially in Chelan County. This is entirely because votes are unreported in several precincts to protect voter privacy.
