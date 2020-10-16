@@ -1,5 +1,5 @@
 # Washington Election Shapefiles (Benton County, Chelan County, Pierce County, Wenatchee Unified School District)
-This shapefile was obtained from the State of Washington and processed by members of the Metric Geometry and Gerrymandering Group (MGGG) and Geodata Bootcamp (GDBC) alum Camryn Hollarsmith.
+These shapefiles were obtained from the State of Washington and processed by members of the Metric Geometry and Gerrymandering Group (MGGG) and Geodata Bootcamp (GDBC) alum Camryn Hollarsmith.
 
 ## Sources
 The county precinct shapefiles were obtained from the [Washington Secretary of State](https://www.sos.wa.gov/elections/research/precinct-shapefiles.aspx). Election data come from the [Washington Secretary of State Elections Division](https://results.vote.wa.gov/results/20161108/). 2010 Decennial Census demographic data were downloaded from the [Census API](https://api.census.gov/data/2010/dec/sf1). The 2010 census block shapefile for all of Washington state, election districts, and school districts were downloaded from the US Census Bureau’s [TIGER/Line Shapefiles](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html).
