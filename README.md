@@ -1,9 +1,10 @@
-# Washington Election Shapefiles (Benton County, Chelan County, Pierce County, Wenatchee Unified School District)
-These shapefiles were obtained from the State of Washington and processed by members of the Metric Geometry and Gerrymandering Group (MGGG) and Geodata Bootcamp (GDBC) alum Camryn Hollarsmith.
+# Washington Election Shapefiles (select counties and school districts)
+These shapefiles were obtained from the State of Washington and processed by members of the Metric Geometry and Gerrymandering Group (MGGG), Geodata Bootcamp (GDBC) alum Camryn Hollarsmith, and our collaborators.
+
+They include Benton County, Chelan County, Pierce County, King County, and Wenatchee Unified School District.
 
 ## Sources
 The county precinct shapefiles were obtained from the [Washington Secretary of State](https://www.sos.wa.gov/elections/research/precinct-shapefiles.aspx). Election data come from the [Washington Secretary of State Elections Division](https://results.vote.wa.gov/results/20161108/). 2010 Decennial Census demographic data were downloaded from the [Census API](https://api.census.gov/data/2010/dec/sf1). The 2010 census block shapefile for all of Washington state, election districts, and school districts were downloaded from the US Census Bureau’s [TIGER/Line Shapefiles](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html).
-
 
 ## Processing
 Some very minor boundary edits were necessary to validate the geometry. Demographic data were aggregated from the block level using MGGG’s proration software. 
@@ -65,6 +66,8 @@ Some very minor boundary edits were necessary to validate the geometry. Demograp
 * `CD`: Congressional district (Pierce County only)
 * `HDIST`: State House district (Pierce County only)
 * `SEND`: State Senate district (Pierce County only)
+
+Note: King County currently only includes PRES16, GOV16, and demographic data.
 
 ## Projection
 These shapefiles use a NAD83/UTM Zone 10N projection (ESPG:6339).
